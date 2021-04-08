@@ -1,0 +1,12 @@
+.search-form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-param{
+    width: 100%;
+}
+
+.search-button{
+    margin-left: 10px !important;
+}

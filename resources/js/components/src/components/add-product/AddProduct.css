@@ -1,0 +1,10 @@
+.drop-zone{
+    width: 0;
+}
+
+.avatar-wrap{
+    width: 60px;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 20px;
+}

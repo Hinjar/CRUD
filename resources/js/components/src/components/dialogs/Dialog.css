@@ -1,0 +1,14 @@
+.dialog-title,
+.select-text{
+    text-align: center;
+}
+.dialog-content{
+    padding-bottom: 15px !important;
+}
+.select-link{
+    text-decoration: none !important;
+}
+
+.select-btn{
+    width: 100%;
+}

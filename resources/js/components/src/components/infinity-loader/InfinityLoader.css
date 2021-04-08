@@ -1,0 +1,11 @@
+.List{
+    height: 768px !important;
+}
+
+@media(min-width: 992px) {
+    .List{
+        height: 815px !important;
+    }
+}
+
+

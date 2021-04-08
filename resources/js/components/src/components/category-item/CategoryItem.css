@@ -1,0 +1,20 @@
+.wrapper{
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #eeeeee;
+    display: flex;
+    justify-content: space-between;
+}
+.avatar{
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.left-side{
+    display: flex;
+}
+
+.name{
+    margin: auto 0;
+    padding-left: 10px;
+}

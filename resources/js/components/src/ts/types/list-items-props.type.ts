@@ -12,6 +12,6 @@ export interface ProductItemPropsDto{
     style?:CSSProperties,
     item: ProductItemDto,
     deletingProduct: (id: number) => void,
-    getCategory: (id: number) => ProductItemDto
+    getCategory: (id: number) => CategoryDto
 }
 

@@ -14,12 +14,12 @@ import {setProducts} from "../redux/actions/product/set-product";
 const ItemList_c = () => {
     useEffect(() => {
         axios.get(`api/v1/products/list`).then((e) => {
-            setAllProducts(e.data)
             store.dispatch(setProducts(e.data))
+            setAllProducts(e.data)
         })
         axios.get(`api/v1/categories/list`).then((e) => {
-            setAllCategories(e.data)
             store.dispatch(setCategories(e.data))
+            setAllCategories(e.data)
         })
     }, [])
 

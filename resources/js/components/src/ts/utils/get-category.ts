@@ -2,7 +2,7 @@ import {ProductItemDto} from "../types/product.type";
 import store from "../../redux/store/store";
 import {CategoryDto} from "../types/category.type";
 
-export function getCategory(id: number): ProductItemDto {
+export function getCategory(id: number): CategoryDto {
     return store.getState().categories.filter((e: CategoryDto) => e.category_id === id)[0]
 }
 
